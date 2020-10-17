@@ -6,7 +6,8 @@ router.get('/', controller.getFuncionarios);
 router.get('/:id', controller.getFuncionarioById);
 router.post('/:id', controller.postFuncionario);
 router.delete('/:id', controller.deleteFuncionario);
-   
-
+router.put('/:id', controller.putFuncionario);
+router.patch('/:id', controller.patchFuncionario); 
+  
 
 module.exports = router;
